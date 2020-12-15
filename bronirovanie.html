@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css\style.css">
     <link rel="icon" href="img\logo@2x.png" type="image/png">
-    <link href="fontawesome-free-5.10.2-web\fontawesome-free-5.10.2-web\css\all.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -40,17 +39,25 @@
                     <span class="text-right">
                         <p>ежедневно с 10 00 до 20 00</p>
                     </span>
-                    <div class="header-socials-buttons text-center ">
-                        <a href="telegram.me" target="_blank" class="social mr-2">
-                                <i class="fab fa-telegram-plane social_icon"></i>
-                        </a>
-                        <a href="instagram.com" target="_blank" class="social mr-2">
-                                <i class="fab fa-instagram social_icon"></i>
-                            </a>
-                        <a href="facebook.com" target="_blank" class="social mr-2">
-                                <i class="fab fa-facebook-f social_icon"></i>
-                        </a>    
-                    </div> 
+                    <div class="container text-center">
+                        <ul class="list-inline">
+                                <li class="list-inline-item mr-3">
+                                    <a href="https://t.me/Loftroomstudio" target="_blank">
+                                    <img src="img\003-telegram.svg" alt="telegram">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item mr-3">
+                                        <a href="https://t.me/Loftroomstudio" target="_blank">
+                                        <img src="img\002-facebook-logo.svg" alt="telegram">
+                                        </a>
+                                </li>
+                                <li class="list-inline-item mr-3">
+                                        <a class="" href="https://t.me/Loftroomstudio" target="_blank">
+                                        <img src="img\001-instagram-logo.svg" alt="telegram">
+                                        </a>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
 
             </div>              
@@ -174,7 +181,7 @@
             <textarea name="comment" id="comment" cols="20" rows="10" class="form-control comment  textarea" placeholder="comments here"></textarea>
         </div>
         <div class="container text-center my-3 button">
-            <input type="button" class="btn btn-primary text-center col-2 rounded" value="order now" onclick="myFunction()"> 
+            <input type="button" class="btn btn-primary text-center col-2 rounded" id="myButton" value="order now"> 
         </div>
         </form>
     </div>
@@ -184,6 +191,7 @@
 
     
 </div>
+
       <footer class="pt-5">
           <div class="container text-center">
                 <ul class="list-inline">

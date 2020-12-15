@@ -1,1 +1,4 @@
-document.getElementById("h").innerHTML = "hello";
+document.getElementById("myButton")
+    .addEventListener("click", function() {
+        document.getElementById("demo").innerHTML = "Hello World";
+  });
